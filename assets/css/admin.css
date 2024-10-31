@@ -1,0 +1,36 @@
+
+/* ACE Editor 
+-------------------------------------------------- */
+
+.ace_gutter-cell.ace_info {
+	background-image: inherit !important; /* Remove "i" icon */
+}
+
+
+
+/* Plugin
+-------------------------------------------------- */
+
+#custom-body-meta-box .inside {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.meta-field {
+	border-top: 1px solid #dddddd;
+	padding: 10px 15px;
+}
+.meta-field:first-child {
+	border-top: none;
+}
+.meta-field > label {
+	display: block;
+	font-weight: bold;
+	line-height: 1.8;
+}
+.meta-field > input[type="text"],
+.meta-field > input[type="number"],
+.meta-field > input[type="url"] {
+	width: 35%;
+}
